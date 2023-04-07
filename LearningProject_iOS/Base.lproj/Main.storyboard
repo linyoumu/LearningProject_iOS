@@ -52,6 +52,15 @@
                                     <action selector="cutMultimediaAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFA-qQ-7VM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqd-8l-eLi">
+                                <rect key="frame" x="150" y="519" width="94" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="视频编码"/>
+                                <connections>
+                                    <action selector="encodeVideoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3g-4G-I5A"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
