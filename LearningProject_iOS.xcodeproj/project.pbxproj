@@ -31,6 +31,7 @@
 		32FEDE1F29DFBF36007FDCD6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FEDE1E29DFBF35007FDCD6 /* libz.tbd */; };
 		32FEDE2129DFBF46007FDCD6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FEDE2029DFBF46007FDCD6 /* libbz2.tbd */; };
 		32FEDE2329DFBF51007FDCD6 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FEDE2229DFBF51007FDCD6 /* libiconv.tbd */; };
+		32FEDE2529DFC595007FDCD6 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDE2429DFC595007FDCD6 /* test.mp4 */; };
 		5D582A1A6069C0CAFDA552F0 /* Pods_LearningProject_iOS_LearningProject_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046CE8D02D23AF32EC240AA5 /* Pods_LearningProject_iOS_LearningProject_iOSUITests.framework */; };
 		CE3DCBC37E912D2D4AC6C4E6 /* Pods_LearningProject_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BDA4B7779781215278591E /* Pods_LearningProject_iOSTests.framework */; };
 		D2D79CCC63FCED2300AB916A /* Pods_LearningProject_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850A387D7DAF8692D7CD4278 /* Pods_LearningProject_iOS.framework */; };
@@ -222,6 +223,7 @@
 		32FEDE1E29DFBF35007FDCD6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		32FEDE2029DFBF46007FDCD6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		32FEDE2229DFBF51007FDCD6 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		32FEDE2429DFC595007FDCD6 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		53BDA4B7779781215278591E /* Pods_LearningProject_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningProject_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		757D85C927D9D372E5D77F2F /* Pods-LearningProject_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningProject_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-LearningProject_iOSTests/Pods-LearningProject_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		850A387D7DAF8692D7CD4278 /* Pods_LearningProject_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningProject_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +299,7 @@
 		32FEDCA429DFB92A007FDCD6 /* LearningProject_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				32FEDE2429DFC595007FDCD6 /* test.mp4 */,
 				32FEDD7829DFBEBF007FDCD6 /* FFmpeg-iOS */,
 				32FEDCA529DFB92A007FDCD6 /* AppDelegate.h */,
 				32FEDCA629DFB92A007FDCD6 /* AppDelegate.m */,
@@ -691,6 +694,7 @@
 				32FEDCB529DFB92D007FDCD6 /* LaunchScreen.storyboard in Resources */,
 				32FEDCB229DFB92D007FDCD6 /* Assets.xcassets in Resources */,
 				32FEDCB029DFB92A007FDCD6 /* Main.storyboard in Resources */,
+				32FEDE2529DFC595007FDCD6 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
